@@ -24,8 +24,8 @@ int main(){
        }
        int i=0;
        for(;i<n && B>0;i++){
-           float y =(float)healthval[i]/(float)A;
-        //    long y = ceil(num);
+        //    float y =(float)healthval[i]/(float)A;
+           long y = ceil(num);
            cout<<y<<"   ";
            B = B- y*attackpow[i];
            healthval[i] = healthval[i] - y*A;
