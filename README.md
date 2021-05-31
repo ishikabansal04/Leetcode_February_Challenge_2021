@@ -1,1 +1,1 @@
-This Repository includes solutions for February Leetcode Challenge. 
+This Repository includes solutions for February Leetcode Daily Challenge. 
