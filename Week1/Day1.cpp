@@ -6,7 +6,7 @@ using namespace std;
         while(n){
             int rem=n%2;
             if(rem==1){
-                count++;
+                count=count+1;
             }
             n= n/2;
         }
